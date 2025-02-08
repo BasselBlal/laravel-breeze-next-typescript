@@ -74,7 +74,7 @@ const RegisterPage = () => {
             <Field
               id="name"
               name="name"
-              className="block mt-1 w-full rounded-md shadow-sm border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+              className="block mt-1 py-1.5 px-3 w-full rounded-md shadow-xs border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
             />
 
             <ErrorMessage
@@ -95,7 +95,7 @@ const RegisterPage = () => {
               id="email"
               name="email"
               type="email"
-              className="block mt-1 w-full rounded-md shadow-sm border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+              className="block mt-1 py-1.5 px-3 w-full rounded-md shadow-xs border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
             />
 
             <ErrorMessage
@@ -116,7 +116,7 @@ const RegisterPage = () => {
               id="password"
               name="password"
               type="password"
-              className="block mt-1 w-full rounded-md shadow-sm border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+              className="block mt-1 py-1.5 px-3 w-full rounded-md shadow-xs border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
             />
 
             <ErrorMessage
@@ -137,7 +137,7 @@ const RegisterPage = () => {
               id="password_confirmation"
               name="password_confirmation"
               type="password"
-              className="block mt-1 w-full rounded-md shadow-sm border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+              className="block mt-1 py-1.5 px-3 w-full rounded-md shadow-xs border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
             />
 
             <ErrorMessage

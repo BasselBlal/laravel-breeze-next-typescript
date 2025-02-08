@@ -79,7 +79,7 @@ const LoginPage = () => {
               id="email"
               name="email"
               type="email"
-              className="block mt-1 w-full rounded-md shadow-sm border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+              className="block mt-1 py-1.5 px-3 w-full rounded-md shadow-xs border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
             />
 
             <ErrorMessage
@@ -100,7 +100,7 @@ const LoginPage = () => {
               id="password"
               name="password"
               type="password"
-              className="block mt-1 w-full rounded-md shadow-sm border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+              className="block mt-1 py-1.5 px-3 w-full rounded-md shadow-xs border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
             />
 
             <ErrorMessage
@@ -115,7 +115,7 @@ const LoginPage = () => {
               <Field
                 type="checkbox"
                 name="remember"
-                className="rounded border-[#99A6AE] text-indigo-600 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+                className="rounded border-[#99A6AE] text-indigo-600 shadow-xs focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
               />
 
               <span className="ml-2 text-[#252729] text-sm leading-[150%] tracking-[-0.4px] font-medium">

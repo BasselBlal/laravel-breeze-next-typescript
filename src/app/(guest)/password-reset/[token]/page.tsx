@@ -72,7 +72,7 @@ const PasswordResetPage = () => {
               name="email"
               type="email"
               disabled
-              className="block mt-1 w-full rounded-md shadow-sm border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 disabled:opacity-75 disabled:cursor-not-allowed"
+              className="block mt-1 py-1.5 px-3 w-full rounded-md shadow-xs border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 disabled:opacity-75 disabled:cursor-not-allowed"
             />
 
             <ErrorMessage
@@ -93,7 +93,7 @@ const PasswordResetPage = () => {
               id="password"
               name="password"
               type="password"
-              className="block mt-1 w-full rounded-md shadow-sm border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+              className="block mt-1 py-1.5 px-3 w-full rounded-md shadow-xs border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
             />
 
             <ErrorMessage
@@ -114,7 +114,7 @@ const PasswordResetPage = () => {
               id="password_confirmation"
               name="password_confirmation"
               type="password"
-              className="block mt-1 w-full rounded-md shadow-sm border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+              className="block mt-1 py-1.5 px-3 w-full rounded-md shadow-xs border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
             />
 
             <ErrorMessage

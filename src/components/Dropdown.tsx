@@ -1,5 +1,5 @@
 import React, { ReactNode } from 'react'
-import { Menu, Transition } from '@headlessui/react'
+import { Menu, MenuButton, MenuItems, Transition } from '@headlessui/react'
 
 type DropdownProps = {
   width?: number
@@ -35,9 +35,10 @@ const Dropdown = ({
     <Menu as="div" className="relative">
       {({ open }) => (
         <>
-          <Menu.Button as={React.Fragment}>{trigger}</Menu.Button>
+          <MenuButton as={React.Fragment}>{trigger}</MenuButton>
 
           <Transition
+            as="div"
             show={open}
             enter="transition ease-out duration-200"
             enterFrom="transform opacity-0 scale-95"
@@ -47,11 +48,11 @@ const Dropdown = ({
             leaveTo="transform opacity-0 scale-95">
             <div
               className={`absolute z-50 mt-2 w-${width} rounded-md shadow-lg ${alignmentClasses}`}>
-              <Menu.Items
+              <MenuItems
                 className={`rounded-md focus:outline-none ring-1 ring-black ring-opacity-5 ${contentClasses}`}
                 static>
                 {children}
-              </Menu.Items>
+              </MenuItems>
             </div>
           </Transition>
         </>

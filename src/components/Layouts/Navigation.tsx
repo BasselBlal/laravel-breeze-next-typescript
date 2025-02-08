@@ -26,7 +26,7 @@ const Navigation = ({ user }: { user: UserType }) => {
         <div className="flex justify-between h-16">
           <div className="flex">
             {/* Logo */}
-            <div className="flex-shrink-0 flex items-center">
+            <div className="shrink-0 flex items-center">
               <Link href="/dashboard">
                 <ApplicationLogo className="block h-10 w-auto fill-current text-gray-600" />
               </Link>
@@ -115,7 +115,7 @@ const Navigation = ({ user }: { user: UserType }) => {
           {/* Responsive Settings Options */}
           <div className="pt-4 pb-1 border-t border-gray-200">
             <div className="flex items-center px-4">
-              <div className="flex-shrink-0">
+              <div className="shrink-0">
                 <svg
                   className="h-10 w-10 fill-current text-gray-400"
                   xmlns="http://www.w3.org/2000/svg"
