@@ -8,7 +8,7 @@
     "laravel-breeze",
     "next",
     "typescript",
-    "next-v14"
+    "next-v15"
   ],
   "scripts": {
     "dev": "next dev",
