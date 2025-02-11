@@ -22,7 +22,7 @@
     "@tailwindcss/postcss": "^4.0.4",
     "axios": "^1.7.9",
     "formik": "^2.4.6",
-    "next": "15.1.6",
+    "next": "15.1.7",
     "react": "^19",
     "react-dom": "^19",
     "swr": "^2.3.2",
